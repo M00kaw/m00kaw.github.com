@@ -77,3 +77,38 @@ e.g:
 
 `sudo resize2fs /dev/mapper/storagevg-storagelv`
 
+## Create a new disk / file system
+
+Add a new disk in VMware, and scan for it: 
+
+`echo "- - -" | sudo tee /sys/class/scsi_host/<controllerid>/scan`
+
+e.g:
+
+`echo "- - -" | sudo tee /sys/class/scsi_host/host32/scan`
+
+Create a new volume group (vg):
+
+`sudo vgcreate <vg> <device>`
+
+e.g:
+
+`sudo vgcreate storagevg /dev/sdb`
+
+Create the logical volume: 
+
+`sudo lvcreate -n <lv> -l +100%FREE <vg>`
+
+e.g:
+
+`sudo lvcreate -n storagelv -l +100%FREE storagevg`
+
+Create a new file system:
+
+`sudo mkfs.ext4 <lvmdevice>`
+
+e.g:
+
+`sudo mkfs.ext4 /dev/mapper/storagevg-storagelv`
+
+add /dev/mapper/storagevg-storagelv to `/etc/fstab` and try it out with `mount -a`
