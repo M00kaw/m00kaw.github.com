@@ -172,9 +172,9 @@ This can be useful for watching patterns over time, and also recording what you 
     Device:         rrqm/s   wrqm/s     r/s     w/s    rkB/s    wkB/s avgrq-sz avgqu-sz   await r_await w_await  svctm  %util
     xvda              0.00    18.00    0.00    5.00     0.00    92.00    36.80     0.00    0.80    0.00    0.80   0.80   0.40
 ```    
-# -x     Display extended statistics.
+ -x     Display extended statistics.
 
-# -z     Tell iostat to omit output for any devices for which there was no activity during the sample period.
+ -z     Tell iostat to omit output for any devices for which there was no activity during the sample period.
 
 
 **r/s, w/s, rkB/s, wkB/s:** These are the delivered reads, writes, read Kbytes, and write Kbytes per second to the device. 
