@@ -24,7 +24,7 @@ Hence the reason, why I've put it at my site.
 
 Just a small note to me, from me, by me (i forget these things, because i rarely use them)
 
-## Compile .rpm with added/new compiler flag
+## [Compile .rpm with added/new compiler flag](squid3_rpm.md)
 
 An article from my first blog, back in 2013. 
 
