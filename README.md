@@ -1,10 +1,15 @@
-### Welcome to sysop.ninja
+# Welcome to sysop.ninja
 
 
 Sysop.ninja is my humble attempt, to document what I do and some times, what I think. 
 
 I work as a Linux System Administrator; playing around with different technologies, and some of them ends up being documented here. 
 
+
+## [Systemd reference](systemd.md)
+
+I saw a talk from RHEL summit 2018 about systemd, and decided to make my own resumé / TLDR / refrence-sheet. 
+Feel free to use it, if it's any good to you.
 
 ## [Debug Linux in 60 seconds](60s_debug.md)
 
