@@ -23,3 +23,9 @@ Hence the reason, why I've put it at my site.
 ## [Upgrading Ubuntu from LTS to non-LTS](ubuntu_lts_upgrade.md) 
 
 Just a small note to me, from me, by me (i forget these things, because i rarely use them)
+
+## Compile .rpm with added/new compiler flag
+
+An article from my first blog, back in 2013. 
+
+This is just for my own nostalgia, feel free to use it if it makes any sense. 
